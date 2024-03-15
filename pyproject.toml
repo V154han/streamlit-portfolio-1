@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mars trial"
+version = "0.1.0"
+description = ""
+authors = ["Visahan Sritharan <visahansritharan@kubrickgroup.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit_lottie = "^0.0.5"
+requests = "^2.31.0"
+streamlit = "^1.32.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
